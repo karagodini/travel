@@ -173,3 +173,239 @@ padding: 9px 22px;
   margin-left: -130px;
   margin-top: 70px;
 }
+
+.service {
+  height: 525px;
+}
+
+.service-container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 105px;
+}
+
+.service-container1-content {
+  padding-left: 420px;
+}
+
+.service-descrption {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #5E6282;
+}
+
+.service-title {
+  font-family: 'Volkhov';
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 64px;
+  text-align: center;
+  color: #14183E;
+  padding-bottom: 60px;
+}
+
+.service-title-img {
+  margin-left: 300px;
+}
+
+.service-container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 80px
+}
+
+.service-title-block {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #1E1D4C;
+}
+
+.service-description-block {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #5E6282;
+}
+
+.service1 {
+  width: 190px;
+}
+
+.service2 {
+  width: 267px;
+  background: #FFFFFF;
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+  border-radius: 36px;
+  padding-left: 44px;
+  padding-right: 44px;
+  margin-left: 44px;
+}
+
+.service2-img {
+  margin-top: -40px;
+  margin-bottom: -35px;
+}
+
+.service3 {
+  width: 190px;
+  margin-left: 90px;
+  margin-right: 118px;
+}
+
+.service4 {
+  width: 190px;
+}
+
+.destination {
+  margin-top: 123px;
+  height: 617px;
+}
+
+.destination-description {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #5E6282;
+}
+
+.destination-title {
+  font-family: 'Volkhov';
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 64px;
+  text-align: center;
+  color: #14183E;
+}
+
+.destination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.destination-europe-img {
+  width: 470px;
+}
+
+.destination-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 314px;
+  margin-top: -200px;
+  margin-bottom: -20px;
+  margin-left: 80px;
+}
+
+.destination-text {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 124.5%;
+  color: #5E6282;
+}
+
+.destination-price {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 124.5%;
+  color: #5E6282;
+}
+
+.destination-day {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 314px;
+  margin-left: 80px;
+}
+
+.destination-day-text {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 124.5%;
+  color: #5E6282;
+  padding-left: 10px;
+}
+
+.book {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.book-content {
+  width: 511px;
+}
+
+.book-description {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #5E6282;
+}
+
+.book-title {
+  font-family: 'Volkhov';
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 64px;
+  color: #14183E;
+  margin: 0;
+}
+
+.book-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+}
+
+.book-container-img {
+  padding-top: 48px;
+}
+
+.book-container-text {
+  padding-top: 48px;
+  padding-left: 21px;
+}
+
+.book-container-title {
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 124.5%;
+  color: #5E6282;
+  margin-top: 0;
+  margin-bottom: 2px;
+}
+
+.book-container-description {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 124.5%;
+  color: #5E6282;
+  margin: 0;
+}
+
+.book-images {
+  width: 500px;
+}
