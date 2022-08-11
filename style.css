@@ -498,6 +498,112 @@ padding: 9px 22px;
 
 .testimonials-slider {
   width: 700px;
+  margin-left: 160px;
+}
+
+.slider {
+  position: relative;
+  overflow: hidden;
+  max-width: 540px;
+  margin: 0 auto;
+}
+
+.slider__wrapper {
+  display: flex;
+  height: 300px;
+  flex-direction: column;
+  transition: transform 0.6s ease;
+}
+
+.slider__item {
+  flex: 0 0 50%;
+}
+
+.slider__control {
+  left: 50%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  color: #fff;
+  text-align: center;
+  opacity: 0.5;
+  height: 40px;
+  transform: translateX(-50%);
+}
+
+.slider__control:hover,
+.slider__control:focus {
+  color: #fff;
+  text-decoration: none;
+  outline: 0;
+  opacity: .9;
+}
+
+.slider__control_up {
+  top: 70px;
+  margin-left: 260px;
+}
+
+.slider__control_down {
+  bottom: 70px;
+  margin-left: 260px;
+}
+
+.slider__control::before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: transparent no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.slider__control_up::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8' %3E%3Cpath d='M4.31 1.7l3.561 3.561a.44.44 0 010 .622l-.415.415a.44.44 0 01-.621 0L4 3.479l-2.835 2.82a.44.44 0 01-.621 0l-.415-.415a.44.44 0 010-.622l3.56-3.56a.44.44 0 01.622 0z' fill='%23000'/%3E%3C/svg%3E");
+}
+
+.slider__control_down::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8' %3E%3Cpath d='M4.31 6.298l3.561-3.56a.44.44 0 000-.622l-.415-.415a.44.44 0 00-.621 0L4 4.52l-2.835-2.82a.44.44 0 00-.621 0l-.415.415a.44.44 0 000 .622l3.56 3.56a.44.44 0 00.622 0z' fill='%23000'/%3E%3C/svg%3E");
+}
+
+.slider__item>div {
+  line-height: 250px;
+}
+
+.slider-content {
+  width: 504px;
+  height: 245px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  padding: 34px;
+  margin-top: -190px;
+  margin-left: 30px;
+}
+
+.slider-description {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  color: #5E6282;
+}
+
+.slider-title {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #5E6282;
+}
+
+.slider-text {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #5E6282;
 }
 
 .logos {
