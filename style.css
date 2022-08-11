@@ -407,5 +407,106 @@ padding: 9px 22px;
 }
 
 .book-images {
-  width: 500px;
+  width: 600px;
+  height: 630px;
+  margin-left: 150px;
+  background: url(images/book-images-fon.png) no-repeat;
+}
+
+.book-images-block {
+  width: 370px;
+  background: #FFFFFF;
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+  border-radius: 26px;
+  padding-left: 25px;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  margin-top: 150px;
+}
+
+.book-images-title {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 124.5%;
+  color: #080809;
+}
+
+.book-images-description {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 124.5%;
+  color: #84829A;
+}
+
+.book-images-icons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.book-images-people {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.book-images-people-text {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 124.5%;
+  color: #84829A;
+  padding-left: 15px;
+  padding-right: 140px;
+}
+
+.book-images-img2 {
+  margin-top: -180px;
+  margin-left: 140px;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 96px;
+}
+
+.testimonials-content {
+  width: 410px;
+}
+
+.testimonials-description {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #5E6282;
+}
+
+.testimonials-title {
+  font-family: 'Volkhov';
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 64px;
+  color: #14183E;
+}
+
+.testimonials-slider {
+  width: 700px;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logos-logo {
+  padding-left: 50px;
+  padding-right: 50px;
 }
