@@ -616,3 +616,162 @@ padding: 9px 22px;
   padding-left: 50px;
   padding-right: 50px;
 }
+
+.subscribe {
+  margin-top: 124px;
+  margin-bottom: 166px;
+}
+
+.subscribe-img {
+  margin-left: 1180px;
+  margin-bottom: -60px;
+}
+
+.subscribe-title {
+  width: 860px;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 33px;
+  line-height: 54px;
+  text-align: center;
+  color: #5E6282;
+  margin-left: 290px;
+}
+
+.subscribe-form {
+  margin-left: 387px;
+}
+
+.subscribe-email {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #39425D;
+  background: #FFFFFF;
+  border-radius: 10px;
+  padding: 25px 280px 25px 66px;
+  border: none;
+}
+
+.subscribe-btn {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 23px;
+  text-align: center;
+  color: #FFFFFF;
+  background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
+  border-radius: 10px;
+  padding: 23px 50px;
+  border: none;
+}
+
+.subscribe-fon1 {
+ margin-bottom: -380px;
+}
+
+.subscribe-fon2 {
+  margin-bottom: -310px;
+  margin-left: 480px;
+}
+
+.subscribe-fon3 {
+  margin-left: 1200px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-container-logo {
+  width: 207px;
+}
+
+.footer-logo {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 66px;
+  color: #181E4B;
+}
+
+.footer-logo-text {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 124.5%;
+  color: #5E6282;
+}
+
+.footer-menu {
+ width: 108px;
+ margin-left: 100px;
+ padding-top: 80px;
+}
+
+.footer-menu-more {
+  width: 115px;
+  margin-left: 100px;
+  padding-top: 80px;
+ }
+
+.footer-menu-title {
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 124.5%;
+  color: #080809;
+  padding-bottom: 20px;
+}
+
+.footer-menu-link {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 124.5%;
+  color: #5E6282;
+}
+
+.footer-button {
+  width: 214px;
+  margin-left: 100px;
+  padding-top: 80px;
+}
+
+.footer-button-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-button-title {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 124.5%;
+  color: #5E6282;
+  text-align: center;
+}
+
+.footer-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-button-google {
+  margin-right: 8px;
+}
+
+.footer-mail {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 124.5%;
+  color: #5E6282;
+  text-align: center;
+  padding: 80px 0;
+}
